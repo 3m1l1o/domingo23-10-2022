@@ -10,6 +10,8 @@ function App() {
         alt='logo de freecodecamp'
       />
      </div>
+
+     <div className='contenedor-principal'></div>
     </div>
   );
 }
