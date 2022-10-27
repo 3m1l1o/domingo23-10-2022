@@ -1,26 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     background-color: #1b1b32;
 }
-.App{
+
+.App {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-top: 15px;
     font-family: Lato, sans-serif;
 }
-.freecondecamp-logo-contenedor{
-    width:100%;
+
+.freecondecamp-logo-contenedor {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
 }
+
 .freecondecamp-logo {
     height: 40px;
+}
+
+.contenedor-principal {
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
